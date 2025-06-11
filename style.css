@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-p{
+.HLogin{
     color: cyan;
 }
 header{
@@ -12,9 +12,9 @@ header{
     height: 5vh;
 }
 .HList{
-    
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none ;
 }
 .HDesing{
@@ -30,4 +30,29 @@ header{
 }
 .HLogin{
     color: rgb(110, 221, 184);
+}
+.HBSee{
+    width: 150px;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: #df0868;
+    border: 0; 
+    border-radius: 15px;
+    height: 27px;
+}
+.YYY{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 300px;
+}
+.HUnlimited{
+    font-size: 45px;
+}
+.HFueled{
+    font-size: 20px;
+}
+.Image{
+    margin-left: 0;
 }
